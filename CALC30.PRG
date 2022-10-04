@@ -263,19 +263,19 @@ Local lPaper:=False, lNumLock := FT_NUMLOCK(.T.), ct2, n1, n2, lt2
       lLineDone:=.T.
    Endif
 
-   @ct+ 0,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-   @ct+ 1,cl SAY "ï¿½                       ï¿½"
-   @ct+ 2,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´"
-   @ct+ 3,cl SAY "ï¿½ESCï¿½ / ï¿½ * ï¿½ - ï¿½ C ï¿½AC ï¿½"
-   @ct+ 4,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´"
-   @ct+ 5,cl SAY "ï¿½ 7 ï¿½ 8 ï¿½ 9 ï¿½   ï¿½M+ ï¿½MR ï¿½"
-   @ct+ 6,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ + ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´"
-   @ct+ 7,cl SAY "ï¿½ 4 ï¿½ 5 ï¿½ 6 ï¿½   ï¿½M- ï¿½MC ï¿½"
-   @ct+ 8,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´"
-   @ct+ 9,cl SAY "ï¿½ 1 ï¿½ 2 ï¿½ 3 ï¿½=E ï¿½ % ï¿½ P ï¿½"
-   @ct+10,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ n ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´"
-   @ct+11,cl SAY "ï¿½   0   ï¿½ "+cDec+" ï¿½ t ï¿½ F ï¿½ H ï¿½"
-   @ct+12,cl SAY "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+   @ct+ 0,cl SAY "ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿"
+   @ct+ 1,cl SAY "³                       ³"
+   @ct+ 2,cl SAY "ÃÄÄÄÂÄÄÄÂÄÄÄÂÄÄÄÂÄÄÄÂÄÄÄ´"
+   @ct+ 3,cl SAY "³ESC³ / ³ * ³ - ³ C ³AC ³"
+   @ct+ 4,cl SAY "ÃÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄ´"
+   @ct+ 5,cl SAY "³ 7 ³ 8 ³ 9 ³   ³M+ ³MR ³"
+   @ct+ 6,cl SAY "ÃÄÄÄÅÄÄÄÅÄÄÄ´ + ÃÄÄÄÅÄÄÄ´"
+   @ct+ 7,cl SAY "³ 4 ³ 5 ³ 6 ³   ³M- ³MC ³"
+   @ct+ 8,cl SAY "ÃÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄÅÄÄÄ´"
+   @ct+ 9,cl SAY "³ 1 ³ 2 ³ 3 ³=E ³ % ³ P ³"
+   @ct+10,cl SAY "ÃÄÄÄÁÄÄÄÅÄÄÄ´ n ÃÄÄÄÅÄÄÄ´"
+   @ct+11,cl SAY "³   0   ³ "+cDec+" ³ t ³ F ³ H ³"
+   @ct+12,cl SAY "ÀÄÄÄÄÄÄÄÁÄÄÄÁÄÄÄÁÄÄÄÁÄÄÄÙ"
 
    cKey:="~"
 
@@ -418,7 +418,7 @@ Local lPaper:=False, lNumLock := FT_NUMLOCK(.T.), ct2, n1, n2, lt2
                If nLanguage=1
                   Alert("CALC: El resultado es muy largo para ser transferido.")
                Elseif nLanguage=2
-                  Alert("CALC: Ergebnis zu groï¿½ zum ï¿½bernehmen.")
+                  Alert("CALC: Ergebnis zu groá zum šbernehmen.")
                Elseif nLanguage=3
                   Alert("CALC: Uitkomst te groot om te kopieren.")
                Elseif nLanguage=4
@@ -609,134 +609,134 @@ Local lPaper:=False, lNumLock := FT_NUMLOCK(.T.), ct2, n1, n2, lt2
                x := SaveScreen(ct2-10,cl2,ct2+12,cl2+34)
 
                If nLanguage=1
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ Calc Ayuda ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-                  @ct2- 9,cl2 SAY   "ï¿½                                 ï¿½"
-                  @ct2- 8,cl2 SAY   "ï¿½ AC =Borra todo (excepto memoria)ï¿½"
-                  @ct2- 7,cl2 SAY   "ï¿½ C  =Borrar el registro.         ï¿½"
-                  @ct2- 6,cl2 SAY   "ï¿½ P  =Switch de la impresara      ï¿½"
-                  @ct2- 5,cl2 SAY   "ï¿½ F x=Fijar los decimales a (x)   ï¿½"
-                  @ct2- 4,cl2 SAY   "ï¿½     x=(0-9 fijo, otro flotante) ï¿½"
-                  @ct2- 3,cl2 SAY   "ï¿½ %  =Porciento                   ï¿½"
-                  @ct2- 2,cl2 SAY   "ï¿½ (  =Empezar un subcalculo       ï¿½"
-                  @ct2- 1,cl2 SAY   "ï¿½ )  =Terminar un subcalculo      ï¿½"
-                  @ct2   ,cl2 SAY   "ï¿½ =  =Total (y terminar todas los ï¿½"
-                  @ct2+ 1,cl2 SAY   "ï¿½               sub-calculos)     ï¿½"
-                  @ct2+ 2,cl2 SAY   "ï¿½ M+ =Sumar a la memoria          ï¿½"
-                  @ct2+ 3,cl2 SAY   "ï¿½ M- =Restar de la memoria        ï¿½"
-                  @ct2+ 4,cl2 SAY   "ï¿½ M* =Multiplicar por la memoria  ï¿½"
-                  @ct2+ 5,cl2 SAY   "ï¿½ M/ =Dividir la memoria          ï¿½"
-                  @ct2+ 6,cl2 SAY   "ï¿½ MR =Llamar la memoria           ï¿½"
-                  @ct2+ 7,cl2 SAY   "ï¿½ MC =Borrar la memoria           ï¿½"
-                  @ct2+ 8,cl2 SAY   "ï¿½ Esc=Salirse de la calculadora   ï¿½"
-                  @ct2+ 9,cl2 SAY   "ï¿½ Ctrl-Left / Ctrl-Right =Moverse ï¿½"
-                  @ct2+10,cl2 SAY   "ï¿½ Home/End/Up/Down/PgUp/PgDn TAPE ï¿½"
-                  @ct2+11,cl2 SAY   "ï¿½ "+If(lInit,"Ctrl-Enter=Tranferir resultado  ",;
-                                                Space(32))  +"ï¿½"
-                  @ct2+12,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄÄÄÄÄÄ´ Calc Ayuda ÃÄÄÄÄÄÄÄÄÄ¿"
+                  @ct2- 9,cl2 SAY   "³                                 ³"
+                  @ct2- 8,cl2 SAY   "³ AC =Borra todo (excepto memoria)³"
+                  @ct2- 7,cl2 SAY   "³ C  =Borrar el registro.         ³"
+                  @ct2- 6,cl2 SAY   "³ P  =Switch de la impresara      ³"
+                  @ct2- 5,cl2 SAY   "³ F x=Fijar los decimales a (x)   ³"
+                  @ct2- 4,cl2 SAY   "³     x=(0-9 fijo, otro flotante) ³"
+                  @ct2- 3,cl2 SAY   "³ %  =Porciento                   ³"
+                  @ct2- 2,cl2 SAY   "³ (  =Empezar un subcalculo       ³"
+                  @ct2- 1,cl2 SAY   "³ )  =Terminar un subcalculo      ³"
+                  @ct2   ,cl2 SAY   "³ =  =Total (y terminar todas los ³"
+                  @ct2+ 1,cl2 SAY   "³               sub-calculos)     ³"
+                  @ct2+ 2,cl2 SAY   "³ M+ =Sumar a la memoria          ³"
+                  @ct2+ 3,cl2 SAY   "³ M- =Restar de la memoria        ³"
+                  @ct2+ 4,cl2 SAY   "³ M* =Multiplicar por la memoria  ³"
+                  @ct2+ 5,cl2 SAY   "³ M/ =Dividir la memoria          ³"
+                  @ct2+ 6,cl2 SAY   "³ MR =Llamar la memoria           ³"
+                  @ct2+ 7,cl2 SAY   "³ MC =Borrar la memoria           ³"
+                  @ct2+ 8,cl2 SAY   "³ Esc=Salirse de la calculadora   ³"
+                  @ct2+ 9,cl2 SAY   "³ Ctrl-Left / Ctrl-Right =Moverse ³"
+                  @ct2+10,cl2 SAY   "³ Home/End/Up/Down/PgUp/PgDn TAPE ³"
+                  @ct2+11,cl2 SAY   "³ "+If(lInit,"Ctrl-Enter=Tranferir resultado  ",;
+                                                Space(32))  +"³"
+                  @ct2+12,cl2 SAY   "ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ"
                Elseif nLanguage=2
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ Kalkulator Hilfe ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-                  @ct2- 9,cl2 SAY   "ï¿½                                 ï¿½"
-                  @ct2- 8,cl2 SAY   "ï¿½ AC  = Alles Lï¿½schen auï¿½.Speicherï¿½"
-                  @ct2- 7,cl2 SAY   "ï¿½ C   = Eingabe Lï¿½schen           ï¿½"
-                  @ct2- 6,cl2 SAY   "ï¿½ P   = Drucken Ein-/Ausschalten  ï¿½"
-                  @ct2- 5,cl2 SAY   "ï¿½ F n = Dezim.stellen auf n setzenï¿½"
-                  @ct2- 4,cl2 SAY   "ï¿½       (0-9 fest, anderes float) ï¿½"
-                  @ct2- 3,cl2 SAY   "ï¿½ %   = Prozentwert               ï¿½"
-                  @ct2- 2,cl2 SAY   "ï¿½ (   = Subkalkulation - Anfang   ï¿½"
-                  @ct2- 1,cl2 SAY   "ï¿½ )   =   Subkalkulation - Ende   ï¿½"
-                  @ct2   ,cl2 SAY   "ï¿½ =   = Gesamtwert (und Ende      ï¿½"
-                  @ct2+ 1,cl2 SAY   "ï¿½         aller Subkalkulationen) ï¿½"
-                  @ct2+ 2,cl2 SAY   "ï¿½ M+  = Addieren zum Speicher     ï¿½"
-                  @ct2+ 3,cl2 SAY   "ï¿½ M-  = Subtrahieren vom Speicher ï¿½"
-                  @ct2+ 4,cl2 SAY   "ï¿½ M*  = Multiplizieren m. Speicherï¿½"
-                  @ct2+ 5,cl2 SAY   "ï¿½ M/  = Speicher Dividieren durch ï¿½"
-                  @ct2+ 6,cl2 SAY   "ï¿½ MR  = Speicher Zurï¿½ckholen      ï¿½"
-                  @ct2+ 7,cl2 SAY   "ï¿½ MC  = Speicher Lï¿½schen          ï¿½"
-                  @ct2+ 8,cl2 SAY   "ï¿½ Esc = Kalkulator Verlassen      ï¿½"
-                  @ct2+ 9,cl2 SAY   "ï¿½ Strg-"+Chr(26)+" / Strg-"+Chr(27)+" = VERSCHIEBEN   ï¿½"
-                  @ct2+10,cl2 SAY   "ï¿½ Pos1/Ende/"+Chr(24)+"/"+Chr(25)+"/Bild"+Chr(24)+"/Bild"+Chr(25)+" = TAPEï¿½"
-                  @ct2+11,cl2 SAY   "ï¿½ "+If(lInit,"Strg-ï¿½ = Ergebnis ï¿½BERNEHMEN   ",;
-                                                Space(32))  +"ï¿½"
-                  @ct2+12,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄÄÄ´ Kalkulator Hilfe ÃÄÄÄÄÄÄ¿"
+                  @ct2- 9,cl2 SAY   "³                                 ³"
+                  @ct2- 8,cl2 SAY   "³ AC  = Alles L”schen auá.Speicher³"
+                  @ct2- 7,cl2 SAY   "³ C   = Eingabe L”schen           ³"
+                  @ct2- 6,cl2 SAY   "³ P   = Drucken Ein-/Ausschalten  ³"
+                  @ct2- 5,cl2 SAY   "³ F n = Dezim.stellen auf n setzen³"
+                  @ct2- 4,cl2 SAY   "³       (0-9 fest, anderes float) ³"
+                  @ct2- 3,cl2 SAY   "³ %   = Prozentwert               ³"
+                  @ct2- 2,cl2 SAY   "³ (   = Subkalkulation - Anfang   ³"
+                  @ct2- 1,cl2 SAY   "³ )   =   Subkalkulation - Ende   ³"
+                  @ct2   ,cl2 SAY   "³ =   = Gesamtwert (und Ende      ³"
+                  @ct2+ 1,cl2 SAY   "³         aller Subkalkulationen) ³"
+                  @ct2+ 2,cl2 SAY   "³ M+  = Addieren zum Speicher     ³"
+                  @ct2+ 3,cl2 SAY   "³ M-  = Subtrahieren vom Speicher ³"
+                  @ct2+ 4,cl2 SAY   "³ M*  = Multiplizieren m. Speicher³"
+                  @ct2+ 5,cl2 SAY   "³ M/  = Speicher Dividieren durch ³"
+                  @ct2+ 6,cl2 SAY   "³ MR  = Speicher Zurckholen      ³"
+                  @ct2+ 7,cl2 SAY   "³ MC  = Speicher L”schen          ³"
+                  @ct2+ 8,cl2 SAY   "³ Esc = Kalkulator Verlassen      ³"
+                  @ct2+ 9,cl2 SAY   "³ Strg-"+Chr(26)+" / Strg-"+Chr(27)+" = VERSCHIEBEN   ³"
+                  @ct2+10,cl2 SAY   "³ Pos1/Ende/"+Chr(24)+"/"+Chr(25)+"/Bild"+Chr(24)+"/Bild"+Chr(25)+" = TAPE³"
+                  @ct2+11,cl2 SAY   "³ "+If(lInit,"Strg-Ù = Ergebnis šBERNEHMEN   ",;
+                                                Space(32))  +"³"
+                  @ct2+12,cl2 SAY   "ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ"
                Elseif nLanguage=3
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ Rekenmachine Help ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-                  @ct2- 9,cl2 SAY   "ï¿½                                 ï¿½"
-                  @ct2- 8,cl2 SAY   "ï¿½ AC  =Wis alles, behalve geheugenï¿½"
-                  @ct2- 7,cl2 SAY   "ï¿½ C   =Wis invoer                 ï¿½"
-                  @ct2- 6,cl2 SAY   "ï¿½ P   =Druk af op papier (aan/uit)ï¿½"
-                  @ct2- 5,cl2 SAY   "ï¿½ F n =Stel aantal dec.in 0-9 voorï¿½"
-                  @ct2- 4,cl2 SAY   "ï¿½     vast, anders vliegende kommaï¿½"
-                  @ct2- 3,cl2 SAY   "ï¿½ %   =Procenten                  ï¿½"
-                  @ct2- 2,cl2 SAY   "ï¿½ (   =Begin sub-berekening       ï¿½"
-                  @ct2- 1,cl2 SAY   "ï¿½ )   =Stop sub-berekening        ï¿½"
-                  @ct2   ,cl2 SAY   "ï¿½ =   =Totaliseer (en stop alle   ï¿½"
-                  @ct2+ 1,cl2 SAY   "ï¿½       sub-berekeningen)         ï¿½"
-                  @ct2+ 2,cl2 SAY   "ï¿½ M+  =Tel op bij geheugen        ï¿½"
-                  @ct2+ 3,cl2 SAY   "ï¿½ M-  =Trek af van geheugen       ï¿½"
-                  @ct2+ 4,cl2 SAY   "ï¿½ M*  =Vermenigvuldig met geheugenï¿½"
-                  @ct2+ 5,cl2 SAY   "ï¿½ M/  =Deel door het geheugen     ï¿½"
-                  @ct2+ 6,cl2 SAY   "ï¿½ MR  =Roep geheugeninhoud op     ï¿½"
-                  @ct2+ 7,cl2 SAY   "ï¿½ MC  =Maak geheugen schoon       ï¿½"
-                  @ct2+ 8,cl2 SAY   "ï¿½ Esc =Verlaat Rekenmachine       ï¿½"
-                  @ct2+ 9,cl2 SAY   "ï¿½ Ctrl-Left/Ctrl-Right = VERSCHUIFï¿½"
-                  @ct2+10,cl2 SAY   "ï¿½ Home/End///PgUp/PgDn TELSTROOKï¿½"
-                  @ct2+11,cl2 SAY   "ï¿½ "+If(lInit,"Ctrl-Enter = Neem resultaat over",;
-                                                Space(32))  +"ï¿½"
-                  @ct2+12,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄÄ´ Rekenmachine Help ÃÄÄÄÄÄÄ¿"
+                  @ct2- 9,cl2 SAY   "³                                 ³"
+                  @ct2- 8,cl2 SAY   "³ AC  =Wis alles, behalve geheugen³"
+                  @ct2- 7,cl2 SAY   "³ C   =Wis invoer                 ³"
+                  @ct2- 6,cl2 SAY   "³ P   =Druk af op papier (aan/uit)³"
+                  @ct2- 5,cl2 SAY   "³ F n =Stel aantal dec.in 0-9 voor³"
+                  @ct2- 4,cl2 SAY   "³     vast, anders vliegende komma³"
+                  @ct2- 3,cl2 SAY   "³ %   =Procenten                  ³"
+                  @ct2- 2,cl2 SAY   "³ (   =Begin sub-berekening       ³"
+                  @ct2- 1,cl2 SAY   "³ )   =Stop sub-berekening        ³"
+                  @ct2   ,cl2 SAY   "³ =   =Totaliseer (en stop alle   ³"
+                  @ct2+ 1,cl2 SAY   "³       sub-berekeningen)         ³"
+                  @ct2+ 2,cl2 SAY   "³ M+  =Tel op bij geheugen        ³"
+                  @ct2+ 3,cl2 SAY   "³ M-  =Trek af van geheugen       ³"
+                  @ct2+ 4,cl2 SAY   "³ M*  =Vermenigvuldig met geheugen³"
+                  @ct2+ 5,cl2 SAY   "³ M/  =Deel door het geheugen     ³"
+                  @ct2+ 6,cl2 SAY   "³ MR  =Roep geheugeninhoud op     ³"
+                  @ct2+ 7,cl2 SAY   "³ MC  =Maak geheugen schoon       ³"
+                  @ct2+ 8,cl2 SAY   "³ Esc =Verlaat Rekenmachine       ³"
+                  @ct2+ 9,cl2 SAY   "³ Ctrl-Left/Ctrl-Right = VERSCHUIF³"
+                  @ct2+10,cl2 SAY   "³ Home/End///PgUp/PgDn TELSTROOK³"
+                  @ct2+11,cl2 SAY   "³ "+If(lInit,"Ctrl-Enter = Neem resultaat over",;
+                                                Space(32))  +"³"
+                  @ct2+12,cl2 SAY   "ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ"
                Elseif nLanguage=4
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ HELP da calculadora ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-                  @ct2- 9,cl2 SAY   "ï¿½                                 ï¿½"
-                  @ct2- 8,cl2 SAY   "ï¿½ AC  = Limpar (excepto a memï¿½ria)ï¿½"
-                  @ct2- 7,cl2 SAY   "ï¿½ C   = Limpar a entrada          ï¿½"
-                  @ct2- 6,cl2 SAY   "ï¿½ P   = Ligar a impressora        ï¿½"
-                  @ct2- 5,cl2 SAY   "ï¿½ F n = Fixar decimais em (n)     ï¿½"
-                  @ct2- 4,cl2 SAY   "ï¿½       (0-9 fixa, outra - flut.) ï¿½"
-                  @ct2- 3,cl2 SAY   "ï¿½ %   = Percentagem               ï¿½"
-                  @ct2- 2,cl2 SAY   "ï¿½ (   = Iniciar um sub-cï¿½lculo    ï¿½"
-                  @ct2- 1,cl2 SAY   "ï¿½ )   = Finalizar um sub-cï¿½lculo  ï¿½"
-                  @ct2   ,cl2 SAY   "ï¿½ =   = Total (e finalizar todos  ï¿½"
-                  @ct2+ 1,cl2 SAY   "ï¿½               os sub-cï¿½lculos)  ï¿½"
-                  @ct2+ 2,cl2 SAY   "ï¿½ M+  = Adicionar ï¿½ Memï¿½ria       ï¿½"
-                  @ct2+ 3,cl2 SAY   "ï¿½ M-  = Subtrair da Memï¿½ria       ï¿½"
-                  @ct2+ 4,cl2 SAY   "ï¿½ M*  = Multiplicar a Memï¿½ria     ï¿½"
-                  @ct2+ 5,cl2 SAY   "ï¿½ M/  = Dividir a Memï¿½ria         ï¿½"
-                  @ct2+ 6,cl2 SAY   "ï¿½ MR  = Chamar o valor da Memï¿½ria ï¿½"
-                  @ct2+ 7,cl2 SAY   "ï¿½ MC  = Limpar a Memï¿½ria          ï¿½"
-                  @ct2+ 8,cl2 SAY   "ï¿½ Esc = Saï¿½r da calculadora       ï¿½"
-                  @ct2+ 9,cl2 SAY   "ï¿½ Ctrl-Left / Ctrl-Right = Mover  ï¿½"
-                  @ct2+10,cl2 SAY   "ï¿½ Home/End/Up/Down/PgUp/PgDn FITA ï¿½"
-                  @ct2+11,cl2 SAY   "ï¿½ "+If(lInit,"Ctrl-Enter = Passar o resultado ",;
-                                                Space(32))  +"ï¿½"
-                  @ct2+12,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄ´ HELP da calculadora ÃÄÄÄÄÄ¿"
+                  @ct2- 9,cl2 SAY   "³                                 ³"
+                  @ct2- 8,cl2 SAY   "³ AC  = Limpar (excepto a mem¢ria)³"
+                  @ct2- 7,cl2 SAY   "³ C   = Limpar a entrada          ³"
+                  @ct2- 6,cl2 SAY   "³ P   = Ligar a impressora        ³"
+                  @ct2- 5,cl2 SAY   "³ F n = Fixar decimais em (n)     ³"
+                  @ct2- 4,cl2 SAY   "³       (0-9 fixa, outra - flut.) ³"
+                  @ct2- 3,cl2 SAY   "³ %   = Percentagem               ³"
+                  @ct2- 2,cl2 SAY   "³ (   = Iniciar um sub-c lculo    ³"
+                  @ct2- 1,cl2 SAY   "³ )   = Finalizar um sub-c lculo  ³"
+                  @ct2   ,cl2 SAY   "³ =   = Total (e finalizar todos  ³"
+                  @ct2+ 1,cl2 SAY   "³               os sub-c lculos)  ³"
+                  @ct2+ 2,cl2 SAY   "³ M+  = Adicionar … Mem¢ria       ³"
+                  @ct2+ 3,cl2 SAY   "³ M-  = Subtrair da Mem¢ria       ³"
+                  @ct2+ 4,cl2 SAY   "³ M*  = Multiplicar a Mem¢ria     ³"
+                  @ct2+ 5,cl2 SAY   "³ M/  = Dividir a Mem¢ria         ³"
+                  @ct2+ 6,cl2 SAY   "³ MR  = Chamar o valor da Mem¢ria ³"
+                  @ct2+ 7,cl2 SAY   "³ MC  = Limpar a Mem¢ria          ³"
+                  @ct2+ 8,cl2 SAY   "³ Esc = Sa¡r da calculadora       ³"
+                  @ct2+ 9,cl2 SAY   "³ Ctrl-Left / Ctrl-Right = Mover  ³"
+                  @ct2+10,cl2 SAY   "³ Home/End/Up/Down/PgUp/PgDn FITA ³"
+                  @ct2+11,cl2 SAY   "³ "+If(lInit,"Ctrl-Enter = Passar o resultado ",;
+                                                Space(32))  +"³"
+                  @ct2+12,cl2 SAY   "ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ"
                Else
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ Calculator Help ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
-                  @ct2- 9,cl2 SAY   "ï¿½                                 ï¿½"
-                  @ct2- 8,cl2 SAY   "ï¿½ AC  = All Clear (except memory) ï¿½"
-                  @ct2- 7,cl2 SAY   "ï¿½ C   = Clear Entry               ï¿½"
-                  @ct2- 6,cl2 SAY   "ï¿½ P   = Toggle Print (exit ejects)ï¿½"
-                  @ct2- 5,cl2 SAY   "ï¿½ F n = Set Fixed Decimals to (n) ï¿½"
-                  @ct2- 4,cl2 SAY   "ï¿½       (0-9 fix, other to float) ï¿½"
-                  @ct2- 3,cl2 SAY   "ï¿½ %   = Percentage                ï¿½"
-                  @ct2- 2,cl2 SAY   "ï¿½ (   = Begin a sub-calculation   ï¿½"
-                  @ct2- 1,cl2 SAY   "ï¿½ )   =   End a sub-calculation   ï¿½"
-                  @ct2   ,cl2 SAY   "ï¿½ =   = Total (and end all sub-   ï¿½"
-                  @ct2+ 1,cl2 SAY   "ï¿½                  calculations)  ï¿½"
-                  @ct2+ 2,cl2 SAY   "ï¿½ M+  = Add to Memory             ï¿½"
-                  @ct2+ 3,cl2 SAY   "ï¿½ M-  = Subtract from Memory      ï¿½"
-                  @ct2+ 4,cl2 SAY   "ï¿½ M*  = Multiply to Memory        ï¿½"
-                  @ct2+ 5,cl2 SAY   "ï¿½ M/  = Divide into Memory        ï¿½"
-                  @ct2+ 6,cl2 SAY   "ï¿½ MR  = Recall Memory             ï¿½"
-                  @ct2+ 7,cl2 SAY   "ï¿½ MC  = Clear Memory              ï¿½"
-                  @ct2+ 8,cl2 SAY   "ï¿½ Esc = Quit Calculator           ï¿½"
-                  @ct2+ 9,cl2 SAY   "ï¿½ Ctrl-Left / Ctrl-Right = MOVE   ï¿½"
-                  @ct2+10,cl2 SAY   "ï¿½ Home/End/Up/Down/PgUp/PgDn TAPE ï¿½"
-                  @ct2+11,cl2 SAY   "ï¿½ "+If(lInit,"Ctrl-Enter = PASTE Result",;
-                                                Space(25))  +"       ï¿½"
-                  @ct2+12,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄÄÄ´ Calculator Help ÃÄÄÄÄÄÄÄ¿"
+                  @ct2- 9,cl2 SAY   "³                                 ³"
+                  @ct2- 8,cl2 SAY   "³ AC  = All Clear (except memory) ³"
+                  @ct2- 7,cl2 SAY   "³ C   = Clear Entry               ³"
+                  @ct2- 6,cl2 SAY   "³ P   = Toggle Print (exit ejects)³"
+                  @ct2- 5,cl2 SAY   "³ F n = Set Fixed Decimals to (n) ³"
+                  @ct2- 4,cl2 SAY   "³       (0-9 fix, other to float) ³"
+                  @ct2- 3,cl2 SAY   "³ %   = Percentage                ³"
+                  @ct2- 2,cl2 SAY   "³ (   = Begin a sub-calculation   ³"
+                  @ct2- 1,cl2 SAY   "³ )   =   End a sub-calculation   ³"
+                  @ct2   ,cl2 SAY   "³ =   = Total (and end all sub-   ³"
+                  @ct2+ 1,cl2 SAY   "³                  calculations)  ³"
+                  @ct2+ 2,cl2 SAY   "³ M+  = Add to Memory             ³"
+                  @ct2+ 3,cl2 SAY   "³ M-  = Subtract from Memory      ³"
+                  @ct2+ 4,cl2 SAY   "³ M*  = Multiply to Memory        ³"
+                  @ct2+ 5,cl2 SAY   "³ M/  = Divide into Memory        ³"
+                  @ct2+ 6,cl2 SAY   "³ MR  = Recall Memory             ³"
+                  @ct2+ 7,cl2 SAY   "³ MC  = Clear Memory              ³"
+                  @ct2+ 8,cl2 SAY   "³ Esc = Quit Calculator           ³"
+                  @ct2+ 9,cl2 SAY   "³ Ctrl-Left / Ctrl-Right = MOVE   ³"
+                  @ct2+10,cl2 SAY   "³ Home/End/Up/Down/PgUp/PgDn TAPE ³"
+                  @ct2+11,cl2 SAY   "³ "+If(lInit,"Ctrl-Enter = PASTE Result",;
+                                                Space(25))  +"       ³"
+                  @ct2+12,cl2 SAY   "ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ"
                Endif
 
                If !lt2
-                  @ct2-10,cl2 SAY   "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
+                  @ct2-10,cl2 SAY   "ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿"
                Endif
 
                CM_On()
@@ -815,18 +815,18 @@ Local lPaper:=False, lNumLock := FT_NUMLOCK(.T.), ct2, n1, n2, lt2
                lPrint:=!lPrint
                If lPrint
                   If nLanguage=1
-                     @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½> IMPRIMIENDO <ï¿½ï¿½Ä¿"
+                     @ nCeil-1,cl+1 Say "ÚÄÄÄ> IMPRIMIENDO <ÄÄÄ¿"
                   Elseif nLanguage=2
-                     @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> DRUCKEN <ï¿½ï¿½ï¿½ï¿½Ä¿"
+                     @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄ> DRUCKEN <ÄÄÄÄÄ¿"
                   Elseif nLanguage=3
-                     @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½> AFDRUKKEN <ï¿½ï¿½ï¿½Ä¿"
+                     @ nCeil-1,cl+1 Say "ÚÄÄÄÄ> AFDRUKKEN <ÄÄÄÄ¿"
                   Elseif nLanguage=4
-                     @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½> A IMPRIMIR <ï¿½ï¿½Ä¿"
+                     @ nCeil-1,cl+1 Say "ÚÄÄÄÄ> A IMPRIMIR <ÄÄÄ¿"
                   Else
-                     @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> PRINTING <ï¿½ï¿½ï¿½Ä¿"
+                     @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄ> PRINTING <ÄÄÄÄ¿"
                   Endif
                Else
-                  @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
+                  @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿"
                Endif
                @ ct,cl+ 1 Say Chr(193)
                @ ct,cl+23 Say Chr(193)
@@ -1041,25 +1041,25 @@ Local y
    Endif
    If lPrint
       If nLanguage=1
-         @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½> IMPRIMIENDO <ï¿½ï¿½Ä¿"
+         @ nCeil-1,cl+1 Say "ÚÄÄÄ> IMPRIMIENDO <ÄÄÄ¿"
       Elseif nLanguage=2
-         @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> DRUCKEN <ï¿½ï¿½ï¿½ï¿½Ä¿"
+         @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄ> DRUCKEN <ÄÄÄÄÄ¿"
       Elseif nLanguage=3
-         @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½> AFDRUKKEN <ï¿½ï¿½ï¿½Ä¿"
+         @ nCeil-1,cl+1 Say "ÚÄÄÄÄ> AFDRUKKEN <ÄÄÄÄ¿"
       Elseif nLanguage=4
-         @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½> A IMPRIMIR <ï¿½ï¿½Ä¿"
+         @ nCeil-1,cl+1 Say "ÚÄÄÄÄ> A IMPRIMIR <ÄÄÄ¿"
       Else
-         @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½> PRINTING <ï¿½ï¿½ï¿½Ä¿"
+         @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄ> PRINTING <ÄÄÄÄ¿"
       Endif
    Else
-      @ nCeil-1,cl+1 Say "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿"
+      @ nCeil-1,cl+1 Say "ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿"
    Endif
    Scroll(nCeil,cl+1,ct-1,cl+23,1)
 
    If CalcCkDec()=","
-      @ ct-1, cl+1 Say "ï¿½"+StrTran(cLine,".",",")+"ï¿½"   //fix! make it match the F-setting
+      @ ct-1, cl+1 Say "³"+StrTran(cLine,".",",")+"³"   //fix! make it match the F-setting
    Else
-      @ ct-1, cl+1 Say "ï¿½"+cLine+"ï¿½"   //fix! make it match the F-setting
+      @ ct-1, cl+1 Say "³"+cLine+"³"   //fix! make it match the F-setting
    Endif
 
    If lPrint
